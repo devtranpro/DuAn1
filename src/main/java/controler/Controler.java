@@ -40,6 +40,7 @@ import support.JSONSimpleReadingFromFileExample;
 
 /**
  * Servlet implementation class for Servlet: Controler
+ * Ket qua test demo
  * 
  */
 
