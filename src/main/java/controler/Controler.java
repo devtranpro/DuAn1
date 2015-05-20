@@ -40,8 +40,8 @@ import support.JSONSimpleReadingFromFileExample;
 
 /**
  * Servlet implementation class for Servlet: Controler
- * Ket qua test demo
  * 
+ * Controler
  */
 
 public class Controler extends javax.servlet.http.HttpServlet implements
