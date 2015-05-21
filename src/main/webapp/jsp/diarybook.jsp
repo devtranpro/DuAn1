@@ -144,7 +144,17 @@
 							<td><%=listborrow.get(i).getPatronID()%></td>
 							<td><%=listborrow.get(i).getBorrowDate()%></td>
 							<td><%=listborrow.get(i).getRenderDate()%></td>
+							<%
+								if (listborrow.get(i).getPayDate() == null) {
+							%>
+							<td>Chưa Trả Sách</td>
+							<%
+								} else {
+							%>
 							<td><%=listborrow.get(i).getPayDate()%></td>
+							<%
+								}
+							%>
 						</tr>
 						<%
 							}

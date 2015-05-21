@@ -32,7 +32,7 @@ $(document).ready( function() {
 
 	<div class="wrapheader">
 		<div>
-			<img src="img/logo.gif" class="imgcompany">
+			<img src="img/logo_lib.gif" class="imgcompany">
 		</div>
 		<div class="user">
 			<%
